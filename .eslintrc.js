@@ -17,8 +17,6 @@ module.exports = {
     "plugin:import/warnings",
     "prettier",
     "plugin:import/typescript",
-    "plugin:eslint-comments/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
   ],
   rules: {
@@ -28,6 +26,7 @@ module.exports = {
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "react/no-deprecated": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
   },
-}
+};
