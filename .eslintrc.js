@@ -18,6 +18,7 @@ module.exports = {
     "prettier",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
+    "plugin:storybook/recommended",
   ],
   rules: {
     "no-unused-vars": "off",
